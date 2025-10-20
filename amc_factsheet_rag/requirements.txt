@@ -1,0 +1,36 @@
+# Core dependencies
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# PDF Processing (Local - No external APIs)
+PyMuPDF==1.23.21
+camelot-py[cv]==0.11.0
+tabula-py==2.9.0
+opencv-python==4.9.0.80
+paddleocr==2.7.3
+paddlepaddle==2.6.0
+
+# ML/NLP
+torch==2.2.0
+transformers==4.37.2
+sentence-transformers==2.3.1
+bitsandbytes==0.42.0
+accelerate==0.26.1
+
+# Vector Store
+qdrant-client==1.7.3
+
+# Caching & Storage
+redis==5.0.1
+hiredis==2.3.2
+
+# Utilities
+python-dotenv==1.0.0
+tqdm==4.66.1
+pydantic==2.5.3
+pydantic-settings==2.1.0
+requests==2.31.0
+
+# Monitoring (optional)
+loguru==0.7.2
